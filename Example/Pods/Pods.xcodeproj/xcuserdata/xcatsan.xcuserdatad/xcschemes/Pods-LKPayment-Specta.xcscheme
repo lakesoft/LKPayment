@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4D51419D18C54E5ABE83CB18"
+               BlueprintIdentifier = "46BC64302F8F4C77B0F32D63"
                BuildableName = "libPods-LKPayment-Specta.a"
                BlueprintName = "Pods-LKPayment-Specta"
                ReferencedContainer = "container:Pods.xcodeproj">
