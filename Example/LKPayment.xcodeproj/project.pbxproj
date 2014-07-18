@@ -28,12 +28,12 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		7F59AF85F1034AAFA5D450AD /* LKPayment.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LKPayment.podspec; path = ../LKPayment.podspec; sourceTree = "<group>"; };
 		A08EEFDBF9CF4AC2ADDCFD7C /* Pods-LKPayment.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKPayment.xcconfig"; path = "Pods/Pods-LKPayment.xcconfig"; sourceTree = "<group>"; };
-		BCFEDF601979E3B50038A6CE /* LKPaymentManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKPaymentManager.h; sourceTree = "<group>"; };
-		BCFEDF611979E3B50038A6CE /* LKPaymentManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKPaymentManager.m; sourceTree = "<group>"; };
-		BCFEDF621979E3B50038A6CE /* LKPaymentManagerHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKPaymentManagerHandler.h; sourceTree = "<group>"; };
-		BCFEDF631979E3B50038A6CE /* LKPaymentManagerHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKPaymentManagerHandler.m; sourceTree = "<group>"; };
-		BCFEDF641979E3B50038A6CE /* LKPaymentManagerHandlerQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKPaymentManagerHandlerQueue.h; sourceTree = "<group>"; };
-		BCFEDF651979E3B50038A6CE /* LKPaymentManagerHandlerQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKPaymentManagerHandlerQueue.m; sourceTree = "<group>"; };
+		BCFEDF691979E5420038A6CE /* LKPaymentManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKPaymentManager.h; sourceTree = "<group>"; };
+		BCFEDF6A1979E5420038A6CE /* LKPaymentManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKPaymentManager.m; sourceTree = "<group>"; };
+		BCFEDF6B1979E5420038A6CE /* LKPaymentManagerHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKPaymentManagerHandler.h; sourceTree = "<group>"; };
+		BCFEDF6C1979E5420038A6CE /* LKPaymentManagerHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKPaymentManagerHandler.m; sourceTree = "<group>"; };
+		BCFEDF6D1979E5420038A6CE /* LKPaymentManagerHandlerQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKPaymentManagerHandlerQueue.h; sourceTree = "<group>"; };
+		BCFEDF6E1979E5420038A6CE /* LKPaymentManagerHandlerQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKPaymentManagerHandlerQueue.m; sourceTree = "<group>"; };
 		C0F736B5C3344E818B093BE1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FB3393576A5841DC9BCBEBFE /* libPods-LKPayment.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LKPayment.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF146EC78CA341539EDC4D08 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -119,15 +119,23 @@
 		BCFEDF5F1979E3610038A6CE /* LKPayment */ = {
 			isa = PBXGroup;
 			children = (
-				BCFEDF601979E3B50038A6CE /* LKPaymentManager.h */,
-				BCFEDF611979E3B50038A6CE /* LKPaymentManager.m */,
-				BCFEDF621979E3B50038A6CE /* LKPaymentManagerHandler.h */,
-				BCFEDF631979E3B50038A6CE /* LKPaymentManagerHandler.m */,
-				BCFEDF641979E3B50038A6CE /* LKPaymentManagerHandlerQueue.h */,
-				BCFEDF651979E3B50038A6CE /* LKPaymentManagerHandlerQueue.m */,
+				BCFEDF671979E5420038A6CE /* Classes */,
 			);
 			name = LKPayment;
-			path = ../Classes;
+			path = ../Pod;
+			sourceTree = "<group>";
+		};
+		BCFEDF671979E5420038A6CE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BCFEDF691979E5420038A6CE /* LKPaymentManager.h */,
+				BCFEDF6A1979E5420038A6CE /* LKPaymentManager.m */,
+				BCFEDF6B1979E5420038A6CE /* LKPaymentManagerHandler.h */,
+				BCFEDF6C1979E5420038A6CE /* LKPaymentManagerHandler.m */,
+				BCFEDF6D1979E5420038A6CE /* LKPaymentManagerHandlerQueue.h */,
+				BCFEDF6E1979E5420038A6CE /* LKPaymentManagerHandlerQueue.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
