@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "LKPayment"
-  s.version          = "0.9.0"
+  s.version          = "0.9.1"
   s.summary          = "In-app purchase utility"
   s.description      = <<-DESC
   In-app purchase utility
