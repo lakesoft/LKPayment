@@ -1,0 +1,20 @@
+/* LKPaymentManager.strings
+  ViewingFun
+
+  Created by Hiroshi Hashiguchi on 2013/08/04.
+  Copyright (c) 2013年 Lakesoft. All rights reserved. */
+
+"LKPaymentManager.Title" = "Add-on";
+
+"LKPaymentManager.Restore.Title" = "Restoration processing";
+
+"LKPaymentManager.Restore.Processing" = "Processing ...";
+
+"LKPaymentManager.Result01" = "Purchase is complete";
+
+"LKPaymentManager.Result02" = "Restoration is complete";
+
+"LKPaymentManager.Result03" = "Purchase record was not found";
+
+"LKPaymentManager.Message.Availability" = "Enable the following settings:\nSettings > General > Restrictions > In-App Purchases";
+

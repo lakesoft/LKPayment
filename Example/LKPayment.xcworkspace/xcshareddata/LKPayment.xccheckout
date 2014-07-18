@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BA672D21-FF9E-4A34-8D60-397749DEBEB0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LKPayment</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0F198B4F-20C7-4ECB-8F9B-8E716997434A</key>
+		<string>ssh://github.com/lakesoft/LKPayment.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Example/LKPayment.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0F198B4F-20C7-4ECB-8F9B-8E716997434A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/lakesoft/LKPayment.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0F198B4F-20C7-4ECB-8F9B-8E716997434A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0F198B4F-20C7-4ECB-8F9B-8E716997434A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LKPayment</string>
+		</dict>
+	</array>
+</dict>
+</plist>

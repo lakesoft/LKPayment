@@ -1,0 +1,20 @@
+/* LKPaymentManager.strings
+  ViewingFun
+
+  Created by Hiroshi Hashiguchi on 2013/08/04.
+  Copyright (c) 2013年 Lakesoft. All rights reserved. */
+
+"LKPaymentManager.Title" = "アドオン";
+
+"LKPaymentManager.Restore.Title" = "復元処理";
+
+"LKPaymentManager.Restore.Processing" = "処理中...";
+
+"LKPaymentManager.Result01" = "購入が完了しました";
+
+"LKPaymentManager.Result02" = "復元が完了しました";
+
+"LKPaymentManager.Result03" = "購入記録がみつかりませんでした";
+
+"LKPaymentManager.Message.Availability" = "設定 > 一般 > 機能制限\n > App内での購入\nを有効にして下さい";
+

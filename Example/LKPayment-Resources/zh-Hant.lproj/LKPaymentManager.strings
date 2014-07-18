@@ -1,0 +1,20 @@
+/* LKPaymentManager.strings
+  ViewingFun
+
+  Created by Hiroshi Hashiguchi on 2013/08/04.
+  Copyright (c) 2013年 Lakesoft. All rights reserved. */
+
+"LKPaymentManager.Title" = "附加";
+
+"LKPaymentManager.Restore.Title" = "恢復處理";
+
+"LKPaymentManager.Restore.Processing" = "處理中...";
+
+"LKPaymentManager.Result01" = "購買完成";
+
+"LKPaymentManager.Result02" = "恢復完成";
+
+"LKPaymentManager.Result03" = "未找到購買記錄";
+
+"LKPaymentManager.Message.Availability" = "啟用下列設置：\n設置  > 一般 > 取用限制 > App 內購買功能";
+

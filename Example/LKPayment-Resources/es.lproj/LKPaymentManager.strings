@@ -1,0 +1,20 @@
+/* LKPaymentManager.strings
+  ViewingFun
+
+  Created by Hiroshi Hashiguchi on 2013/08/04.
+  Copyright (c) 2013年 Lakesoft. All rights reserved. */
+
+"LKPaymentManager.Title" = "Add-on";
+
+"LKPaymentManager.Restore.Title" = "Procesamiento de Restauración";
+
+"LKPaymentManager.Restore.Processing" = "Procesamiento de ...";
+
+"LKPaymentManager.Result01" = "Compra está completo";
+
+"LKPaymentManager.Result02" = "La restauración es completa";
+
+"LKPaymentManager.Result03" = "No se encontró el registro de compra";
+
+"LKPaymentManager.Message.Availability" = "Habilitar los siguientes ajustes:\nAjustes> General> Restricciones> Compras integradas ";
+
