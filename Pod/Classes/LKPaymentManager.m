@@ -61,7 +61,10 @@
 #pragma mark Privates (Localized)
 - (NSString*)_localizedStringForKey:(NSString*)key
 {
-    return [NSBundle.mainBundle localizedStringForKey:key value:nil table:NSStringFromClass(self.class)];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"LKPayment-Resources" ofType:@"bundle"];
+    NSBundle *bundle = [NSBundle bundleWithPath:path];
+
+    return [bundle localizedStringForKey:key value:nil table:NSStringFromClass(self.class)];
 }
 
 #pragma mark -

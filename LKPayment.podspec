@@ -9,10 +9,10 @@
 
 Pod::Spec.new do |s|
   s.name             = "LKPayment"
-  s.version          = "0.9.1"
+  s.version          = "0.9.2"
   s.summary          = "In-app purchase utility"
   s.description      = <<-DESC
-  In-app purchase utility
+  In-app purchase utility.
                        DESC
   s.homepage         = "https://github.com/lakesoft/LKPayment"
   s.license          = 'MIT'
